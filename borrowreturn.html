@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="/borrow">
+        <h1>Borrow Book</h1>
+        <label for="">Library Card Number</label>
+        <input type="text" name="libNum">
+        <label for="">Book Title</label>
+        <input type="text" name="bookName">
+        <button>Borrow</button> 
+    </form>   
+    <form method="POST" action="/return">
+        <h1>Return Book</h1>
+        <label for="">Book Title</label>
+        <input type="text" name="bookName">
+        <button>Return</button>
+    </form>
+</body>
+</html>
