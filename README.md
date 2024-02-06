@@ -1,1 +1,1 @@
-# library
+This is a library app that allows students to borrow and return books. THhe list of books automatically updates when the user borrows a book and send error messages if somone else has the book or if that user currently has that book. Finally, it allows user to return the books which updates the list to show other users that the book is available for borrowing! 
